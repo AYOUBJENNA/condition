@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+	float a,b,c,x1,x2;
+	float x;
+	printf("entre le valeur de a");
+	scanf("%f",&a);
+	printf("entre le valeur de b");
+	scanf("%f",&b);
+	printf("entre les valeur de c");
+	scanf("%f",&c);
+	x =(b*b)-4*a*c;
+	if (x==0) {
+  printf("%f",(-b)/(2*a));
+} else if(x>0) {
+	x1 =(-b-sqrt (x))/2;
+	x1 =(-b+sqrt (x))/2;
+  printf(" on a deux solution %f %f",x1,x2);
+}
+else {
+	printf("pas de solution");
+}
+	return 0;
+}

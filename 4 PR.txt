@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	int a,b,s;
+	printf("entre le valeur de a");
+	scanf("%d",&a);
+	printf("entre le valeur de b");
+	scanf("%d",&b);
+	s = a + b;
+	printf("SUM = %d",s);
+	if(a==b){
+		printf("\n Triplle = %d",s*3);
+	}
+	return 0;
+}
